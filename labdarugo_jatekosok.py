@@ -15,6 +15,19 @@ A megoldott feladatokat a kiirt_adatok nevű mappában hozd létre statisztika.t
 """
 
 
+labdarúgók= []
+with open('adatok/autok_listaja.csv', 'r', encoding='utf-8') as forrasfajl:
+    for sor in forrasfajl:
+        next in forrasfajl
+        adatok = sor.strip().split(';')
+        Nev = adatok[0]
+        Csapat = adatok[1]
+        Golszam = int(adatok[2])
+        Merkozesszam = int(adatok[3])
+        jatekos = {'Játékos neve': Nev, 'Csapat neve': Csapat, 'Gólok száma': Golszam, 'Mérkőzések száma' : Merkozesszam}
+        labdarúgók.append(jatekos)
+
+print(f'{jatekos=}')
 print("A beolvasott fájlban összesen ____ játékos szerepel.")
 print("A legkevesebb gólt szerző játékos: ____")
 print("A legtöbb gólt szerző játékos: ____")
