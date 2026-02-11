@@ -1,0 +1,5 @@
+A beolvasott fájlban összesen 30 játékos szerepel.
+A legkevesebb gólt szerző játékos: Fernando Torres
+A legtöbb gólt szerző játékos: Neymar
+A legtöbb mérkőzést játszó játékos: Cristiano Ronaldo
+Az átlagos gólszám: 561.2333333333333
